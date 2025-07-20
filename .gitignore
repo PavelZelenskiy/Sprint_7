@@ -1,0 +1,53 @@
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Дистрибутивы и скомпилированные файлы
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Установленные пакеты (например, venv или pipenv)
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.bak
+
+# Файлы кэша и журналов
+*.log
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы настроек и переменных окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.secrets
+
+# Файлы зависимостей
+Pipfile.lock
+poetry.lock
+
+11.py
